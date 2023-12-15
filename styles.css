@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Agregamos estilos para el nuevo contenedor del logo y texto */
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destination-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.footer-container {
+    margin-top: auto;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
